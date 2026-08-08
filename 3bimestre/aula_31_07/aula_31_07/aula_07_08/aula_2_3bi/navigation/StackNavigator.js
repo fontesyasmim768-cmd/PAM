@@ -27,6 +27,5 @@ export default function App() {
       <Button title='Login' onPress={() => { }}/>
 
     </ScrollView>
-    
   );
 }
