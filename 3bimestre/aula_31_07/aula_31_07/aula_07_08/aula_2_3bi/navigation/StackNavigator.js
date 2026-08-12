@@ -1,31 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ScrollView, Image, TextInput, Button } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-export default function App() {
+import Login from '../screens/login/Login';
+import Home from '../screens/home/Home';
+
+const Stack = createNativeStackNavigator();
+
+export default function StackNavigator() {
   return (
-    <ScrollView>
+    <NavigationContainer>
+      <Stack.Navigator>
 
-      <Image source={{
-        uri: 'https://reactnative.dev/docs/assets/p_cat1.png'
-      }}
-      style={{width: 200, height: 200}}/>
+        <Stack.Screen
+          name="Login"
+          component={Login}
+          
+        />
 
-      <Text>E-mail</Text>
-      <TextInput placeholder='fulano@hotmail.com' style={{
-        height: 40,
-        borderColor: 'gray',
-        borderWidth: 1,
-      }}></TextInput>
+        <Stack.Screen
+          name="Home"
+          component={Home}
 
-      <Text>Senha</Text>
-      <TextInput placeholder='abcd@1234' style={{
-        height: 40,
-        borderColor: 'gray',
-        borderWidth: 1,
-      }}></TextInput>
+        />
 
-      <Button title='Login' onPress={() => { }}/>
-
-    </ScrollView>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
