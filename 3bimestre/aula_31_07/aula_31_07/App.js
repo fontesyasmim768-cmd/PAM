@@ -1,40 +1,46 @@
-import { Text, View, TextInput, Button, Image } from 'react-native';
+import { Text, View, Button } from 'react-native';
 
 export default function App() {
-  function fazerLogin() {
-    alert('Login realizado!');
-  }
-
   return (
-    <View>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
 
-      <Text>📚 SISTEMA DE BIBLIOTECA</Text>
+      <Text style={{ fontSize: 28, fontWeight: 'bold' }}>
+        📚 Biblioteca Escolar
+      </Text>
 
-      <Image
-        source={{
-          uri: 'https://reactnative.dev/docs/assets/p_cat1.png'
-        }}
-        style={{ width: 200, height: 200 }}
-      />
+      <Text style={{ fontSize: 18 }}>
+        Bem-vindo!
+      </Text>
 
-      <Text>Bem-vindo à Biblioteca!</Text>
-
-      <Text>E-mail</Text>
-
-      <TextInput
-        placeholder="Digite seu e-mail"
-      />
-
-      <Text>Senha</Text>
-
-      <TextInput
-        placeholder="Digite sua senha"
-        secureTextEntry
+      <Button
+        title="Consultar Livros"
+        onPress={() => alert('Consulta de livros')}
       />
 
       <Button
-        title="Entrar"
-        onPress={fazerLogin}
+        title="Cadastrar Aluno"
+        onPress={() => alert('Cadastro de aluno')}
+      />
+
+      <Button
+        title="Cadastrar Livro"
+        onPress={() => alert('Cadastro de livro')}
+      />
+
+      <Button
+        title="Empréstimos"
+        onPress={() => alert('Empréstimos')}
+      />
+
+      <Button
+        title="Devoluções"
+        onPress={() => alert('Devoluções')}
       />
 
     </View>
