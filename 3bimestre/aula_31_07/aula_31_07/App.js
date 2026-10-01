@@ -8,6 +8,8 @@ export default function App() {
   return (
     <View>
 
+      <Text>📚 SISTEMA DE BIBLIOTECA</Text>
+
       <Image
         source={{
           uri: 'https://reactnative.dev/docs/assets/p_cat1.png'
@@ -15,21 +17,23 @@ export default function App() {
         style={{ width: 200, height: 200 }}
       />
 
+      <Text>Bem-vindo à Biblioteca!</Text>
+
       <Text>E-mail</Text>
 
       <TextInput
-        placeholder="fulano@hotmail.com"
+        placeholder="Digite seu e-mail"
       />
 
       <Text>Senha</Text>
 
       <TextInput
-        placeholder="abcd@1234"
+        placeholder="Digite sua senha"
         secureTextEntry
       />
 
       <Button
-        title="Login"
+        title="Entrar"
         onPress={fazerLogin}
       />
 
