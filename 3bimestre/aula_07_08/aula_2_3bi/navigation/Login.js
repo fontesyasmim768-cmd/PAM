@@ -1,30 +1,51 @@
-import { View, Text, TextInput, Button, Image } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 
 export default function Login({ navigation }) {
-
   return (
-    <View>
+    <View style={styles.container}>
+      <Text style={styles.titulo}>Yasmim Lash</Text>
 
-      <Image
-        source={{
-          uri: 'https://reactnative.dev/docs/assets/p_cat1.png'
-        }}
-        style={{ width: 200, height: 200 }}
+      <TextInput
+        style={styles.input}
+        placeholder="E-mail"
       />
 
-      <Text>Digite o e-mail</Text>
-
-      <TextInput placeholder="fulano@hotmail.com" />
-
-      <Text>Senha</Text>
-
-      <TextInput placeholder="abc@123" />
+      <TextInput
+        style={styles.input}
+        placeholder="Senha"
+        secureTextEntry={true}
+      />
 
       <Button
         title="Entrar"
+        color="#7a4565"
         onPress={() => navigation.navigate('Home')}
       />
-
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f8f0f5',
+    justifyContent: 'center',
+    padding: 20,
+  },
+
+  titulo: {
+    fontSize: 28,
+    textAlign: 'center',
+    marginBottom: 20,
+    color: '#7a4565',
+  },
+
+  input: {
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#aaa',
+    padding: 10,
+    marginBottom: 15,
+    borderRadius: 5,
+  },
+});

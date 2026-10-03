@@ -1,0 +1,24 @@
+{"_e":"root:init","_t":1790989746507,"format":"v0-jsonl","version":"57.0.27"}
+{"_e":"env:mode","_t":1790989746507,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1790989746509,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1790989748845,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1790989749086,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1790989749183,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/PAM/3bimestre/aula_28_08/meu-projeto/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"expo:dev-tools-plugin:load","_t":1790989749337,"plugins":[]}
+{"_e":"metro:instantiate","_t":1790989752801,"atlas":false,"workers":1,"host":"::","port":8084}
+{"_e":"root:init","_t":1790989928454,"format":"v0-jsonl","version":"57.0.27"}
+{"_e":"env:mode","_t":1790989928455,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1790989928457,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1790989942054,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1790989942298,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1790989942399,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/PAM/3bimestre/aula_28_08/meu-projeto/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"expo:dev-tools-plugin:load","_t":1790989942512,"plugins":[]}
+{"_e":"metro:instantiate","_t":1790989945210,"atlas":false,"workers":1,"host":"::","port":8085}
+{"_e":"root:init","_t":1790990266613,"format":"v0-jsonl","version":"57.0.27"}
+{"_e":"env:mode","_t":1790990266614,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1790990266615,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1790990268742,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1790990269008,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1790990269093,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/PAM/3bimestre/aula_28_08/meu-projeto/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"expo:dev-tools-plugin:load","_t":1790990269212,"plugins":[]}
+{"_e":"metro:instantiate","_t":1790990272128,"atlas":false,"workers":1,"host":"::","port":8086}
